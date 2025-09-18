@@ -14,15 +14,18 @@
         root.appendChild(heading);
     </script> -->
 
-    <script
+    <!-- we don't need this now as we have installed react package  -->
+    <!-- <script
     crossorigin 
     src="https://unpkg.com/react@18/umd/react.development.js">
     </script>
     <script 
     crossorigin 
     src="https://unpkg.com/react-dom@18/umd/react-dom.development.js">
-    </script>
+    </script> -->
 
-    <script src = "./app.js"></script>
+    <script type="module" src = "./app.js"></script> 
+    <!-- browser treats this as browser script so by writing here type="module"
+     we are telling the browser that is not a normal browser scritp it is a  module-->
 </body>
 </html>
