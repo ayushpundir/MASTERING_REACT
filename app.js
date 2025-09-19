@@ -10,8 +10,12 @@ const heading = React.createElement("h1",
 const root = ReactDOM.createRoot(document.getElementById("root"));
 //root.render(heading); // takes this obj and convert it to h1 tag and put it in the react
 
+//using jsx
+const heading2 = <h1>hey there I'm JSX</h1>; // js engine can't understand this code 
+// as js underderstands ecmmaScript, the above line is not pure js but thid code still works
+//how ?..... Parcels is working behind the scene as parcel (Babel) transpiles this into js
 
-// how to create nested elements
+// how to create nested elements by classical way
 const div = React.createElement("div",
     {id:"parent"}, 
     React.createElement("div",

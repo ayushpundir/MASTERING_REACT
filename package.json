@@ -61,6 +61,8 @@
     "parcel": "^2.15.4"
   },
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
